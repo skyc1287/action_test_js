@@ -1,3 +1,4 @@
+on: [push]
 - name: Execute Javascript
   uses: amochkin/action-javascript@v1
   id: <step_id>
