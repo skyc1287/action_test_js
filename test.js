@@ -16,4 +16,4 @@ button.addEventListener('click', () => {
     console.log(randomNumber);
 });
 
-// test //
+// test 2 //
