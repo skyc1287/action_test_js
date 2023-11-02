@@ -15,3 +15,5 @@ button.addEventListener('click', () => {
     const randomNumber = generateRandomNumber();
     console.log(randomNumber);
 });
+
+// test //
