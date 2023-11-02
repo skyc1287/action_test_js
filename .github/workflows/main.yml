@@ -1,3 +1,8 @@
-              - name: Test Javascript Hello Action
-                uses: adeloyedeji/github-actions-hello@v1.0
-            
+- name: Execute Javascript
+  uses: amochkin/action-javascript@v1
+  id: <step_id>
+  with:
+    js: |
+      output("output_1", "Hello World!")
+- name: Print output
+  run: echo ${{ steps.<step_id>.outputs.output_1 }}
